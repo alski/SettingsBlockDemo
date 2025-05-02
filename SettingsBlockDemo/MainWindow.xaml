@@ -15,7 +15,10 @@
     </Window.SystemBackdrop>
 
     <Grid Padding="20">
-        <tk:SettingsExpander Description="Demo" Header="Demo">
+        <tk:SettingsExpander
+            Description="Demo"
+            Header="Demo"
+            Style="{StaticResource SettingsBlock}">
             <tk:SettingsExpander.Items>
                 <tk:SettingsCard Description="Description for Settings Card 1" Header="Settings Card 1">
                     <tk:SettingsCard.HeaderIcon>
