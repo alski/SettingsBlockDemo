@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Window
+    x:Class="SettingsBlockDemo.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:SettingsBlockDemo"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:tk="using:CommunityToolkit.WinUI.Controls"
+    Title="SettingsBlockDemo"
+    mc:Ignorable="d">
+
+    <Window.SystemBackdrop>
+        <MicaBackdrop />
+    </Window.SystemBackdrop>
+
+    <Grid Padding="20">
+        <tk:SettingsExpander Description="Demo" Header="Demo">
+            <tk:SettingsExpander.Items>
+                <tk:SettingsCard Description="Description for Settings Card 1" Header="Settings Card 1">
+                    <tk:SettingsCard.HeaderIcon>
+                        <FontIcon Glyph="&#xE705;" />
+                    </tk:SettingsCard.HeaderIcon>
+                </tk:SettingsCard>
+                <tk:SettingsCard Description="Description for Settings Card 1" Header="Settings Card 1">
+                    <tk:SettingsCard.HeaderIcon>
+                        <FontIcon Glyph="&#xE705;" />
+                    </tk:SettingsCard.HeaderIcon>
+                </tk:SettingsCard>
+                <tk:SettingsCard Description="Description for Settings Card 1" Header="Settings Card 1">
+                    <tk:SettingsCard.HeaderIcon>
+                        <FontIcon Glyph="&#xE705;" />
+                    </tk:SettingsCard.HeaderIcon>
+                </tk:SettingsCard>
+            </tk:SettingsExpander.Items>
+        </tk:SettingsExpander>
+    </Grid>
+</Window>

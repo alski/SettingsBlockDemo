@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SettingsBlockDemo (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "SettingsBlockDemo (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
